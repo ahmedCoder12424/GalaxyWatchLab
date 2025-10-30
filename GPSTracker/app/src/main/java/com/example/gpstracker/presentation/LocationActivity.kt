@@ -180,7 +180,6 @@ class LocationActivity : ComponentActivity() {
             textAlign = TextAlign.Center,
             color = if (location != null) MaterialTheme.colors.primary else MaterialTheme.colors.secondary,
             text = locationText,
-            style = MaterialTheme.typography.caption1
-        )
+            style = MaterialTheme.typography.caption1)
     }
 }
